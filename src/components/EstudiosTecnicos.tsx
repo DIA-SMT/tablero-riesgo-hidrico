@@ -610,10 +610,13 @@ export default function EstudiosTecnicos() {
             Modelación Hidráulica y Estudios Técnicos
           </h2>
         </div>
-        <p className="text-gray-400 text-sm mb-3 max-w-3xl">
+        <p className="text-gray-400 text-sm mb-2 max-w-3xl">
           Resultados de los modelos hidrológicos e hidráulicos (HEC-HMS / HEC-RAS)
           elaborados por el Comité de Emergencias Hídricas de la Ciudad de San Miguel
           de Tucumán, sobre relevamiento LIDAR 2025.
+        </p>
+        <p className="text-[11px] text-gray-600 mb-3">
+          Integración y visualización: <span className="text-brand-celeste font-medium">Dirección de Inteligencia Artificial</span> — MSMTuc
         </p>
         <div className="flex items-center gap-4 mb-8">
           <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-800/60 border border-surface-500/15">

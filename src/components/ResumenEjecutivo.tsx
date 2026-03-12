@@ -104,6 +104,9 @@ export default function ResumenEjecutivo() {
             escenarios de erogación del Dique El Cadillal, precipitaciones extraordinarias y
             saturación del sistema urbano de drenaje. Marzo 2026.
           </p>
+          <p className="text-[11px] text-gray-600 mt-2">
+            Desarrollado por la <span className="text-brand-celeste font-medium">Dirección de Inteligencia Artificial</span> — Municipalidad de San Miguel de Tucumán
+          </p>
         </div>
 
         {/* Semáforo de riesgo */}

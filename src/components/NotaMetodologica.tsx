@@ -135,6 +135,11 @@ export default function NotaMetodologica() {
                 de evacuación definitivas. Toda comunicación pública debe explicitar esta
                 distinción.
               </p>
+              <p className="mt-3 pt-3 border-t border-surface-500/15">
+                <strong className="text-brand-celeste">Dirección de Inteligencia Artificial</strong>{' '}
+                — Municipalidad de San Miguel de Tucumán. Tablero desarrollado con modelos de
+                lenguaje e integración de datos geoespaciales para apoyo a la gestión de emergencias.
+              </p>
             </div>
           </div>
         </div>

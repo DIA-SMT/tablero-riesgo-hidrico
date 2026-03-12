@@ -82,13 +82,21 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-surface-500/20 py-6">
+      <footer className="border-t border-surface-500/20 py-8">
         <div className="max-w-[1440px] mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-3">
-            <p className="text-xs text-gray-600">
-              Tablero de Riesgo Hídrico | Área Metropolitana de San Miguel de Tucumán | Marzo 2026
+          <div className="flex flex-col items-center gap-4">
+            <div className="flex items-center gap-2">
+              <div className="w-1 h-4 rounded-full bg-brand-blue" />
+              <p className="text-xs text-gray-400 font-medium">
+                Desarrollado por la{' '}
+                <span className="text-brand-celeste">Dirección de Inteligencia Artificial</span>
+              </p>
+              <div className="w-1 h-4 rounded-full bg-brand-blue" />
+            </div>
+            <p className="text-[11px] text-gray-600">
+              Municipalidad de San Miguel de Tucumán | Tablero de Riesgo Hídrico | Marzo 2026
             </p>
-            <p className="text-xs text-gray-600">
+            <p className="text-[11px] text-gray-600">
               Herramienta de apoyo a la toma de decisiones. No constituye predicción hidráulica.
             </p>
           </div>

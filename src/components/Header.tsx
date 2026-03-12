@@ -1,4 +1,4 @@
-import { Droplets, Radio } from 'lucide-react';
+import { Droplets, Cpu } from 'lucide-react';
 
 const NAV_ITEMS = [
   { id: 'resumen', label: 'Resumen' },
@@ -51,15 +51,17 @@ export default function Header({ activeSection }: HeaderProps) {
             ))}
           </nav>
 
-          {/* Status */}
+          {/* DIA badge */}
           <div className="flex items-center gap-2">
-            <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-yellow/10 border border-brand-yellow/30">
-              <Radio className="w-3.5 h-3.5 text-brand-yellow animate-pulse" />
-              <span className="text-xs font-semibold text-brand-yellow">EN VIVO</span>
+            <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-blue/10 border border-brand-blue/25">
+              <Cpu className="w-3.5 h-3.5 text-brand-blue" />
+              <span className="hidden lg:inline text-[11px] font-medium text-brand-celeste">
+                Dirección de Inteligencia Artificial
+              </span>
+              <span className="lg:hidden text-[11px] font-medium text-brand-celeste">
+                DIA
+              </span>
             </div>
-            <span className="hidden lg:inline text-xs text-gray-500">
-              12 Mar 2026
-            </span>
           </div>
         </div>
       </div>
