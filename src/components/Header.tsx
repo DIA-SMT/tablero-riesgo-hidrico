@@ -3,6 +3,7 @@ import { Droplets, Radio } from 'lucide-react';
 const NAV_ITEMS = [
   { id: 'resumen', label: 'Resumen' },
   { id: 'mapa', label: 'Mapa' },
+  { id: 'estudios', label: 'Estudios' },
   { id: 'zonas', label: 'Zonas' },
   { id: 'poblacion', label: 'Población' },
   { id: 'escenarios', label: 'Escenarios' },

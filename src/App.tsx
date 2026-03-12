@@ -5,10 +5,11 @@ import MapaPrincipal from './components/MapaPrincipal';
 import ZonasPrioritarias from './components/ZonasPrioritarias';
 import PoblacionVulnerable from './components/PoblacionVulnerable';
 import Escenarios from './components/Escenarios';
+import EstudiosTecnicos from './components/EstudiosTecnicos';
 import DecisionesRecomendadas from './components/DecisionesRecomendadas';
 import NotaMetodologica from './components/NotaMetodologica';
 
-const SECTIONS = ['resumen', 'mapa', 'zonas', 'poblacion', 'escenarios', 'decisiones'];
+const SECTIONS = ['resumen', 'mapa', 'estudios', 'zonas', 'poblacion', 'escenarios', 'decisiones'];
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('resumen');
@@ -46,6 +47,12 @@ export default function App() {
         </div>
 
         <MapaPrincipal />
+
+        <div className="max-w-[1440px] mx-auto px-6">
+          <div className="h-px bg-gradient-to-r from-transparent via-surface-500/40 to-transparent" />
+        </div>
+
+        <EstudiosTecnicos />
 
         <div className="max-w-[1440px] mx-auto px-6">
           <div className="h-px bg-gradient-to-r from-transparent via-surface-500/40 to-transparent" />
